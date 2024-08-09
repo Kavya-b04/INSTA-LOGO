@@ -1,0 +1,58 @@
+.pinkbox{
+    background-color: rgb(232, 17, 207);
+    width: 330px;
+    height: 330px;
+    border-radius: 3.5em;
+    border: 2em;
+    position: relative;
+    background-image: linear-gradient( to bottom right ,#132cbc 10px,#e52e71 ,#ff8a00);
+
+}  
+
+   
+.bluebox
+{
+    /* border: 100em; */
+    
+    background-color: blue;
+    width:230px;
+    height: 230px;
+    border-radius: 3.5em;
+    /* border-color: aliceblue; */
+    box-shadow: inset 0px 0px 0px 15px rgb(255, 255, 255);
+    position: absolute;
+    top : 50%;
+    left: 50%;
+    /* border: 5px whitesmoke; */
+    transform: translate(-50%,-50%);
+    background-image: linear-gradient( to bottom right ,#132cbc,#e52e71 ,#faa84a);
+
+}
+.circle
+{
+    background-color: aliceblue;
+    width:150px;
+    height: 150px;
+    transform: translateY(15%);
+    background-image: linear-gradient( to bottom right ,#e52e71,#e52e71 ,#e6ac6b);
+    border-radius: 5em;
+    border: 5px white;
+    box-shadow: inset 0px 0px 0px 15px rgb(255, 255, 255);
+    
+}
+.scircle
+{
+    background-color: aliceblue;
+    width:23px;
+    height: 23px;
+    transform: translate(320%,135%);
+    border-radius: 5em;
+    border: 5px white;  
+}
+
+.body{
+    
+    /* background:repeating-radial-gradient(blue 10px ,pink 10px,rgb(234, 29, 217) 10px,orange 10px) ; */
+    
+}  
+/* }#4a00da */
